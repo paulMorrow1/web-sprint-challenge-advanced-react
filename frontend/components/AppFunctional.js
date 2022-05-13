@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react";
+import axios from "axios";
 
 export default function AppFunctional(props) {
   return (
@@ -33,5 +34,5 @@ export default function AppFunctional(props) {
         <input id="submit" type="submit"></input>
       </form>
     </div>
-  )
+  );
 }
